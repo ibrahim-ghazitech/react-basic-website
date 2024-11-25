@@ -1,0 +1,19 @@
+a.main-btn {
+    background: var(--main-color);
+    color: var(--white-clr);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 65px;
+    border-radius: 70px;
+    font-size: 1.2rem;
+    text-align: end;
+    position: relative;
+  }
+  img.arrow-image {
+    position: absolute;
+    max-width: 100%;
+    width: 24px;
+    margin-left: 10px;
+    filter: invert(1);
+}
