@@ -3,6 +3,12 @@ import './App.css';
 import Button from './component/button/button';
 import Main from './component/main/main';
 import Company from './component/company/company';
+import Client from './component/happy-client/client';
+import Services from './component/services/services';
+import WhyChoose from './component/why-choose/why-choose';
+import Work from './component/our-work/our-work';
+import Team from './component/our-team/our-team';
+import Blog from './component/blog/blog';
 
 function Nav() {
   return (
@@ -30,6 +36,12 @@ function Nav() {
     </header>
     <Main/>
     <Company/>
+    <Client/>
+    <Services/>
+    <WhyChoose/>
+    <Work/>
+    <Team/>
+    <Blog/>
     </>
   );
 }

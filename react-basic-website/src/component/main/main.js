@@ -16,10 +16,10 @@ function Main(){
                             <p className="bottom-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat, lectus non fringilla ornare, lacus lacus vestibulum sapien, sed convallis augue magna vel justo. Curabitur fermentum risus elit, non commodo.</p>
                         </div>
                         <div className="main-image">
-                            <img src={sliderImage} className="main-slider-image" />
+                            <img src={sliderImage} alt="main-image" className="main-slider-image" />
                         </div>
                         <div className="image-2">
-                            <img src={userImage} className="user-image vert-move"/>
+                            <img src={userImage}  alt="users-image" className="user-image vert-move"/>
                         </div>
                     </div>
                 </div>

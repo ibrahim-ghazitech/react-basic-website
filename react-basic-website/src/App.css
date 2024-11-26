@@ -6,7 +6,10 @@
     --secondary-color: #FF7F63;
     --light-bg-color: #FFCBBF;
     --text-color: #525256;
-    --white-clr: #fff;
+    --white-color: #fff;
+    --work-card-1-color: #BBB8FF;
+    --work-card-2-color: #FFCEC2;
+    --work-card-3-color: #FFE597;
 }
 
 *{
@@ -22,8 +25,61 @@ body{
   font-size: 16px;
 }
 
+.primary-heading {
+  font-size: 3.375rem;
+  font-weight: 700;
+}
+.secondary-heading{
+  font-size: 4.25rem;
+  font-weight: 700;
+}
+
+/* Width Classes defined */
+
+.w-100{
+  width: 100%;
+}
+.w-60{
+  width: 60%;
+}
+.w-50{
+  width: 50%;
+}
+.w-40{
+  width: 40%;
+}
+.w-30{
+  width: 30%;
+}
+
+/* Flex Defined */
+.flex{
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-end{
+  justify-content: end;
+}
+.justify-between{
+  justify-content: space-between;
+}
+
+/* Gap Defined */
+.gap {
+  gap: 20px;
+}
+
 header{
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: var(--white-color);
 }
 
 .container{
