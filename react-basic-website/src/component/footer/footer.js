@@ -1,5 +1,7 @@
 import './footer.css';
 import footerLogo from './footer-logo.png';
+import starImage from '../happy-client/bg-star.png';
+import circleImage from './circle.png';
 
 
 function Footer (){
@@ -7,6 +9,13 @@ function Footer (){
         <>
         <footer className="footer">
             <div className="container">
+                <div className="footer-circle">
+                    <img src={circleImage} className="footer-circle-bg-image" />
+                </div>
+                <div className="footer-star">
+                    <img src={starImage} className="footer-star-bg-image" />
+                </div>
+
                 <div className="footer-wrapper">
                     <div className="footer-connect">
                         <div className="footer-connect-heading">

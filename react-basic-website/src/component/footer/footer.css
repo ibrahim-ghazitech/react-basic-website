@@ -5,7 +5,26 @@ footer.footer {
     background-color: var(--main-color);
     color: var(--white-color);
     align-content: center;
+    overflow: hidden;
+    position: relative;
 }
+
+img.footer-circle-bg-image {
+    position: absolute;
+    filter: drop-shadow(2px 4px 2px black);
+    left: -30px;
+    top: 0;
+    animation: mover 2s infinite alternate;
+}
+
+img.footer-star-bg-image{
+    position: absolute;
+    filter: drop-shadow(2px 4px 6px black);
+    right: 0;
+    top: 0;
+    animation: mover 2s infinite alternate;
+}
+
 .footer a {
     color: var(--white-color);
 }
@@ -56,3 +75,4 @@ ul.footer-list {
     gap: 40px;
     font-size: 1.125rem;
 }
+
