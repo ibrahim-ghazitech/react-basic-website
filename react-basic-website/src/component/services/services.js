@@ -1,4 +1,5 @@
 import './services.css';
+import Button from '../button/button'
 import networkImage from './network.png';
 import callImage from './phone-call.png';
 import webImage from './web.png';
@@ -20,6 +21,7 @@ function Services (){
                         <p className="services-para">
                             State burst think end are its. Arrived off she elderly beloved him affixed noisier yet. Course regard to up he hardly elder prominent services.
                         </p>
+                        <Button>View all</Button>
                     </div>
                     <div className="services-card w-60">
                             <div className="card-wrapper flex gap justify-end">

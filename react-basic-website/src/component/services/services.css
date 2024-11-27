@@ -7,7 +7,7 @@ section.services {
 }
 section.services p {
     color: var(--text-color);
-    padding-bottom: 10px;
+    margin-bottom: 40px;
     font-size: 1.125rem;
     line-height: 30px;
 }
@@ -30,4 +30,7 @@ img.card-image {
 
 h5.card-heading {
     font-size: 1.5rem;
+}
+a.card-see-more {
+    color: var(--secondary-color);
 }

@@ -1,4 +1,5 @@
 import './why-choose.css';
+import Button from '../button/button'
 import chooseImage from './choose-1.png';
 import smChooseImage from './choose-sm.png';
 

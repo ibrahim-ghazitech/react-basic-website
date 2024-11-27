@@ -9,6 +9,7 @@ import WhyChoose from './component/why-choose/why-choose';
 import Work from './component/our-work/our-work';
 import Team from './component/our-team/our-team';
 import Blog from './component/blog/blog';
+import Footer from './component/footer/footer';
 
 function Nav() {
   return (
@@ -29,7 +30,7 @@ function Nav() {
             </ul>
           </div>
           <div className="btn">
-            <Button/>
+            <Button>Get a qoute</Button>
           </div>
         </nav>
       </div>
@@ -42,6 +43,7 @@ function Nav() {
     <Work/>
     <Team/>
     <Blog/>
+    <Footer/>
     </>
   );
 }

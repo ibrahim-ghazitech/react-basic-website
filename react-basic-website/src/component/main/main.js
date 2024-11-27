@@ -1,4 +1,5 @@
 import './main.css';
+import Button from '../button/button'
 import sliderImage from './slider_image.png';
 import userImage from './user-image.png';
 
