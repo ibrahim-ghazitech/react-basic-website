@@ -22,15 +22,15 @@ function Nav() {
           </div>
           <div className="nav-list">
             <ul className="nav-item">
-              <li><a href="javascript:void(0)">Home</a></li>
-              <li><a href="javascript:void(0)">About</a></li>
-              <li><a href="javascript:void(0)">Pages</a></li>
-              <li><a href="javascript:void(0)">Blog</a></li>
-              <li><a href="javascript:void(0)">Contact</a></li>
+              <li><a href="javascript:void(0)">{"Home"}</a></li>
+              <li><a href="javascript:void(0)">{"About"}</a></li>
+              <li><a href="javascript:void(0)">{"Pages"}</a></li>
+              <li><a href="javascript:void(0)">{"Blog"}</a></li>
+              <li><a href="javascript:void(0)">{"Contact"}</a></li>
             </ul>
           </div>
           <div className="btn">
-            <Button>Get a qoute</Button>
+            <Button>{"Get a qoute"}</Button>
           </div>
         </nav>
       </div>

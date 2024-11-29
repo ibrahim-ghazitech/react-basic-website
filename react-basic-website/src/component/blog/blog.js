@@ -14,12 +14,12 @@ function Blog() {
                 <div className="container">
                     <div className="blog-wrapper">
                         <p className="blog-sec-para top-para">
-                            our latest news
+                            {"our latest news"}
                         </p>
                         <h5 className="blog-sec-heading primary-heading">
-                            Immerse yourself in our
+                            {"Immerse yourself in our"}
                             <br />
-                            articles & insights
+                            {"articles & insights"}
                         </h5>
                         <div className="blog-card-wrapper">
                             <div className="main-blog">
@@ -30,12 +30,12 @@ function Blog() {
                                     <div className="blog-title-desc">
                                         <a href="javascript:void(0)">
                                             <p className="blog-category">
-                                                Branding
+                                                {"Branding"}
                                             </p>
                                         </a>
                                         <a>
                                             <p className="blog-title">
-                                                12 stunning examples of Illustration designs..
+                                                {"12 stunning examples of Illustration designs.."}
                                             </p>
                                         </a>
                                     </div>
@@ -43,10 +43,10 @@ function Blog() {
                                         <img src={blogAuthorImageOne} className="blog-auhtor-image-1"/>
                                         <div className="blog-author-details">
                                             <p className="blog-author-name">
-                                                Arlene McCoy
+                                                {"Arlene McCoy"}
                                             </p>
                                             <p className="blog-date">
-                                                November 27, 2024
+                                                {"November 27, 2024"}
                                             </p>
                                         </div>
                                     </div>
@@ -61,12 +61,12 @@ function Blog() {
                                     <div className="blog-title-desc">
                                         <a href="javascript:void(0)">
                                             <p className="blog-category">
-                                                Technology
+                                                {"Technology"}
                                             </p>
                                         </a>
                                         <a>
                                             <p className="blog-title">
-                                                How to be a more productive designer..
+                                                {"How to be a more productive designer.."}
                                             </p>
                                         </a>
                                     </div>
@@ -74,10 +74,10 @@ function Blog() {
                                         <img src={blogAuthorImageTwo} className="blog-auhtor-image-1"/>
                                         <div className="blog-author-details">
                                             <p className="blog-author-name">
-                                                Theresa Webb
+                                                {"Theresa Webb"}
                                             </p>
                                             <p className="blog-date">
-                                                November 27, 2024
+                                                {"November 27, 2024"}
                                             </p>
                                         </div>
                                     </div>
@@ -91,12 +91,12 @@ function Blog() {
                                     <div className="blog-title-desc">
                                         <a href="javascript:void(0)">
                                             <p className="blog-category">
-                                                Trends
+                                                {"Trends"}
                                             </p>
                                         </a>
                                         <a>
                                             <p className="blog-title">
-                                                Pride by Design: 7 designers explore the..
+                                                {"Pride by Design: 7 designers explore the.."}
                                             </p>
                                         </a>
                                     </div>
@@ -104,10 +104,10 @@ function Blog() {
                                         <img src={blogAuthorImageThree} className="blog-auhtor-image-1"/>
                                         <div className="blog-author-details">
                                             <p className="blog-author-name">
-                                                Flores Juanita
+                                                {"Flores Juanita"}
                                             </p>
                                             <p className="blog-date">
-                                                November 27, 2024
+                                                {"November 27, 2024"}
                                             </p>
                                         </div>
                                     </div>

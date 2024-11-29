@@ -13,21 +13,20 @@ function Client() {
                     <div className="client-wrapper">
                         <div className="client-content">
                             <h4 className="client-heading">
-                                50,000+ happy clients.
+                                {"50,000+ happy clients."}
                             </h4>
                             <p className="client-para">
-                                Duis aute irure dolor in reprehenderit in voluptate velit
-                                esse cillum dolore eu fugiat nulla pariatu.
+                                {"Duis aute irure dolor in reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatu."}
                             </p>
                         </div>
                         <div className="line"></div>
                         <div className="client-rating">
                             <div className="cleint-1">
                                 <h5 className="rating">
-                                    4.9
+                                    {"4.9"}
                                 </h5>
                                 <p className="avg-rating">
-                                    223 average rating
+                                    {"223 average rating"}
                                 </p>
                                 <div className="rating-star">
                                     <img src={starImage} alt="rating-star-image" className="star" />
@@ -39,10 +38,10 @@ function Client() {
                             </div>
                             <div className="cleint-2">
                                 <h5 className="rating">
-                                    A+
+                                    {"A+"}
                                 </h5>
                                 <p className="avg-rating" id="avg-review">
-                                    223 clients reviews
+                                    {"223 clients reviews"}
                                 </p>
                                 <div className="rating-star">
                                     <img src={starImage} alt="rating-star-image" className="star" />
@@ -54,10 +53,10 @@ function Client() {
                             </div>
                             <div className="cleint-3">
                                 <h5 className="rating">
-                                    4.8
+                                    {"4.8"}
                                 </h5>
                                 <p className="avg-rating" id="avg-review">
-                                    129 clients reviews
+                                    {"129 clients reviews"}
                                 </p>
                                 <div className="rating-star">
                                     <img src={starImage} alt="rating-star-image" className="star" />
