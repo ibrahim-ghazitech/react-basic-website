@@ -8,20 +8,20 @@ import supportImage from './support.png';
 function Company (){
     return (
         <>
-        <section className="company">
+        <section className="company max-w-100 max-h-100 align-content-center">
             <div className="container">
-                <div className="company-wrapper">
-                        <div className="company-images">
+                <div className="company-wrapper w-100 flex align-center">
+                        <div className="company-images w-50 relative">
                             <div className="comp-image">
-                                <img src={imageTwo} alt="circle-icon" className="comp-bg-image"/>
+                                <img src={imageTwo} alt="circle-icon" className="comp-bg-image relative"/>
                             </div>
                             <div className="comp-grow-images">
-                                <img src={imageOne} alt="company-profile-image" className="grow-image-1"/>
-                                <img src={imageThree} alt="company-growth-image" className="grow-image-2"/>
+                                <img src={imageOne} alt="company-profile-image" className="grow-image-1 absolute b-r-20"/>
+                                <img src={imageThree} alt="company-growth-image" className="grow-image-2 absolute b-r-20"/>
 
                             </div>    
                         </div>
-                        <div className="company-content">
+                        <div className="company-content w-50">
                             <p className="company-top-para top-para">
                                 About Our Company
                             </p>
