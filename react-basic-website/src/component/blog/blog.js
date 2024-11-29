@@ -10,7 +10,7 @@ import blogAuthorImageThree from './blog-author-3.jpg';
 function Blog() {
     return (
         <>
-            <section className="blog">
+        <section className="blog">
                 <div className="container">
                     <div className="blog-wrapper">
                         <p className="blog-sec-para top-para">
@@ -118,7 +118,7 @@ function Blog() {
                     </div>
                 </div>
 
-            </section>
+        </section>
         </>
     );
 }

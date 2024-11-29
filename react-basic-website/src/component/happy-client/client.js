@@ -5,7 +5,7 @@ import bgStar from './bg-star.png';
 function Client() {
     return (
         <>
-            <section className="client">
+        <section className="client">
                 <div className="star-background-div">
                     <img src={bgStar} className="bg-star-image" />
                 </div>
@@ -71,7 +71,7 @@ function Client() {
                         </div>
                     </div>
                 </div>
-            </section>
+        </section>
         </>
     );
 }

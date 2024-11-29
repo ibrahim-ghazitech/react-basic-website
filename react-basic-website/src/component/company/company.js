@@ -8,7 +8,7 @@ import supportImage from './support.png';
 function Company() {
     return (
         <>
-            <section className="company max-w-100 max-h-100 align-content-center">
+        <section className="company max-w-100 max-h-100 align-content-center">
                 <div className="container">
                     <div className="company-wrapper w-100 flex align-center">
                         <div className="company-images w-50 relative">
@@ -63,7 +63,7 @@ function Company() {
                         </div>
                     </div>
                 </div>
-            </section>
+        </section>
         </>
     );
 

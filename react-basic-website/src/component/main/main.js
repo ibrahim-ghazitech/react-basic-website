@@ -6,7 +6,7 @@ import userImage from './user-image.png';
 function Main(){
     return (
         <>
-            <section className="main">
+        <section className="main">
                 <div className="top-left"></div>
                 <div className="right-bottom"></div>
                 <div className="container">
@@ -24,7 +24,7 @@ function Main(){
                         </div>
                     </div>
                 </div>
-            </section>
+        </section>
         </>
     );
 }
