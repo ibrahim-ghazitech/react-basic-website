@@ -44,11 +44,13 @@ function Client() {
                                     {"223 clients reviews"}
                                 </p>
                                 <div className="rating-star">
-                                    <img src={starImage} alt="rating-star-image" className="star" />
-                                    <img src={starImage} alt="rating-star-image" className="star" />
-                                    <img src={starImage} alt="rating-star-image" className="star" />
-                                    <img src={starImage} alt="rating-star-image" className="star" />
-                                    <img src={starImage} alt="rating-star-image" className="star" />
+                                {/*<i class="fa-solid fa-star "></i> font-awesome icon use for testing*/}
+                                
+                                <img src={starImage} alt="rating-star-image" className="star" />
+                                <img src={starImage} alt="rating-star-image" className="star" />
+                                <img src={starImage} alt="rating-star-image" className="star" />
+                                <img src={starImage} alt="rating-star-image" className="star" />
+                                <img src={starImage} alt="rating-star-image" className="star" />
                                 </div>
                             </div>
                             <div className="cleint-3">

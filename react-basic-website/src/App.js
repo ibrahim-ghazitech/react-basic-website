@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import logo from './logo.png';
 import './App.css';
 import Button from './component/button/button';
